@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>COLORTON — Demo</title>
+  <!-- favicon -->
+  <link rel="icon" href="logo1.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">A TODO MÉXICO · ENVÍO NACIONAL · NUEVOS TONOS · PAGO SEGURO</div>
+  <div class="ticker">
+    <div class="ticker-content">
+      ¡Aprovecha 4% Adicional en tonos rojos y rosas del 11 al 22 de febrero del 2026! Mayorista, surte tu negocio al mejor precio en colortoncosmeticsmx · 
+      ¡Aprovecha 4% Adicional en tonos rojos y rosas del 11 al 22 de febrero del 2026! Mayorista, surte tu negocio al mejor precio en colortoncosmeticsmx · 
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="#">
+          <img src="logo2.png" alt="Colorton"/>
+        </a>
+        <nav class="menu">
+          <a href="#tendencia">Tendencia</a>
+          <a href="#categorias">Categorías</a>
+          <a href="#reels">Reels</a>
+          <a href="#encuentranos">Encuéntranos</a>
+        </nav>
+        <a class="btn outline" href="#tendencia">Comprar</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero slider -->
+    <section id="hero-slider">
+      <div class="container">
+        <div class="slider">
+          <div class="slide"><img src="b1.webp" alt="Banner 1"></div>
+          <div class="slide"><img src="banner8.png" alt="Banner 2"></div>
+          <div class="slide"><img src="b3.webp" alt="Banner 3"></div>
+        </div>
+        <div class="hero-overlay">
+          <div class="hero-panel">
+            <span class="hero-eyebrow">Promo limitada</span>
+            <h1>Tu momento de calma, tu glow renovado</h1>
+            <p>Usa el codigo <b>MEGA50</b> y recibe 10% extra en tu primer pedido.</p>
+            <div class="hero-code">
+              <input id="promoCode" value="MEGA50" readonly>
+              <button class="btn copy" id="copyCodeBtn" type="button">Copy Code</button>
+            </div>
+            <button class="btn" id="shopNowBtn" type="button">Comprar ahora</button>
+            <div class="promo-status" id="promoStatus" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="promo-toast" id="promoToast" role="status" aria-live="polite">Codigo MEGA50 aplicado</div>
+        <div class="controls">
+          <button id="prev">&#10094;</button>
+          <button id="next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tendencia">
+      <div class="container">
+        <div class="head">
+          <h2>En tendencia</h2>
+          <span class="muted">Productos estrella (demo)</span>
+        </div>
+        <div class="grid4" id="productGrid"></div>
+      </div>
+    </section>
+    <section id="pasarela" class="launch">
+      <div class="container">
+        <div class="split">
+          <div>
+            <div class="head">
+              <span class="muted" style="color:var(--pink);font-weight:800;">NUEVO LANZAMIENTO</span>
+            </div>
+            <h2>Esmaltes Pasarela</h2>
+            <p>Nuevos Esmaltes Colección Pasarela llegan con unos efectazos iridiscentes, holográficos y metálicos. Tienen glitters de formas únicas, con acabado y una fórmula libre de tolueno y formaldehído. Facilísimos de aplicar y retirar (sin dramas, ni lámpara UV). No son testeados en animales, porque pa’ brillar también hay que ser responsables.</p>
+            <a class="btn" href="#tendencia">¡Inclúyelo en tu negocio!</a>
+          </div>
+          <div>
+            <img src="t1.png" alt="Esmaltes Pasarela" style="width:100%;border-radius:18px">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="categorias">
+      <div class="container">
+        <div class="head">
+          <h2>Por categoría</h2>
+          <span class="muted">Rostro · Labios · Ojos · Brochas</span>
+        </div>
+        <div class="grid4">
+          <div class="card"><div class="img" style="background-image:url('extra.jpg')"></div><div class="body"><b>Labios</b><div class="muted">Matte, gloss, indeleble</div></div></div>
+          <div class="card"><div class="img" style="background-image:url('extra1.jpg')"></div><div class="body"><b>Rostro</b><div class="muted">Base, corrector, BB</div></div></div>
+          <div class="card"><div class="img" style="background-image:url('extra3.jpg')"></div><div class="body"><b>Ojos</b><div class="muted">Gel cejas, looks</div></div></div>
+          <div class="card"><div class="img" style="background-image:url('p9.jpg')"></div><div class="body"><b>Brochas</b><div class="muted">Sets + individuales</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reels videos section -->
+    <section id="reels">
+      <div class="container">
+        <div class="intro-reels">
+          <div class="small">Contenido de Maquillaje</div>
+          <div class="hashtag">#SoyColorton</div>
+          <div class="caption">Colaboraciones increíbles</div>
+        </div>
+        <div class="video-grid">
+          <video src="v2.webm" controls></video>
+          <video src="v4.webm" controls></video>
+          <video src="v6.webm" controls></video>
+          <video src="v9.webm" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <section id="encuentranos" class="locator">
+      <div class="container">
+        <div class="head">
+          <h2>Encuentra COLORTON en toda la república</h2>
+          <span class="muted">Localizador por estados (demo)</span>
+        </div>
+
+        <div class="split">
+          <div class="mapWrap" id="mapWrap">
+            <img src="mapa2.png" alt="Mapa de México"/>
+          </div>
+
+          <div class="stateList">
+            <b>Estados con presencia</b>
+            <div class="muted" style="margin:6px 0 12px 0">Escribe un estado y te lo filtro.</div>
+            <input id="stateSearch" placeholder="Ej: Jalisco, Puebla, CDMX..." />
+            <div class="states" id="states"></div>
+            <div class="muted" style="margin-top:12px">
+              WhatsApp: +52 33 3647 6500 · Av. México 3225, 44690
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="wa" id="waBtn" href="#" title="WhatsApp">WA</a>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footerTop">
+        <div class="fCol fBrand">
+          <div class="fLogoRow">
+            <img class="fLogo" src="logo4.png" alt="Colorton"/>
+          </div>
+          <p class="fDesc">Belleza que eleva tu ritual diario. Formulas limpias, acabados premium y color con actitud.</p>
+          <a class="btn footer-cta" href="#tendencia">Comprar ahora</a>
+        </div>
+        <div class="fCol">
+          <b>Categorias</b>
+          <a href="#categorias">Labios</a>
+          <a href="#categorias">Rostro</a>
+          <a href="#categorias">Ojos</a>
+          <a href="#categorias">Brochas</a>
+        </div>
+        <div class="fCol">
+          <b>Informacion</b>
+          <a href="#">Aviso legal</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Terminos</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contacto</a>
+        </div>
+        <div class="fCol">
+          <b>Social</b>
+          <div class="fSocial">
+            <a class="soc" href="#" aria-label="Facebook">Fb</a>
+            <a class="soc" href="#" aria-label="Instagram">Ig</a>
+            <a class="soc" href="#" aria-label="TikTok">Tk</a>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom center-text">
+        © Colorton <span id="year"></span>
+      </div>
+    </div>
+  </footer>
+
+<script>
+
+const WA_NUMBER = "523336476500";
+const PROMO_CODE = "MEGA50";
+const PROMO_DISCOUNT = 0.10;
+const PROMO_SECTION = "tendencia";
+
+/* =========================
+   PRODUCTOS (desde JSON)
+========================= */
+
+fetch("products.json")
+  .then(response => response.json())
+  .then(products => {
+    const grid = document.getElementById("productGrid");
+
+    // show only the first 4 items so the "En tendencia" section renders as a single row
+    grid.innerHTML = products.slice(0,4).map(product => {
+      const imageStyle = product.image
+        ? ` style="background-image:url('${product.image}');background-size:cover;background-position:center;"`
+        : "";
+      const discountedPrice = Math.round(product.price * (1 - PROMO_DISCOUNT));
+
+      return `
+      <article class="card">
+        <div class="img"${imageStyle}></div>
+        <div class="body">
+          <div class="row">
+            <b>${product.name}</b>
+            <div class="price-wrap" data-price="${product.price}">
+              <span class="price price-old">$${product.price}</span>
+              <span class="price price-new">$${discountedPrice}</span>
+            </div>
+          </div>
+          <div class="muted">${product.desc}</div>
+          <button class="mini"
+            onclick="buyWA('${product.name}', '${product.price}')">
+            Comprar por WhatsApp
+          </button>
+        </div>
+      </article>
+    `;
+    }).join("");
+  });
+
+/* =========================
+   WHATSAPP PRODUCTO
+========================= */
+
+function buyWA(name, price){
+  const message = `Hola, quiero comprar: ${name} ($${price}). ¿Me compartes disponibilidad y envío?`;
+  const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+
+/* =========================
+   BOTÓN FLOTANTE WHATSAPP
+========================= */
+
+document.getElementById("waBtn").addEventListener("click", function(e){
+  e.preventDefault();
+  const message = "Hola, quiero información de productos Colorton y puntos de venta.";
+  const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+});
+
+/* =========================
+   AÑO AUTOMÁTICO FOOTER
+========================= */
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+/* =========================
+   LOCALIZADOR DE ESTADOS
+========================= */
+
+const statesRaw = [
+"Aguascalientes","Baja California Norte","Baja California Sur","Campeche",
+"Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango",
+"Estado de México","Guanajuato","Guerrero","Hidalgo","Jalisco","Michoacán",
+"Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro",
+"Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco",
+"Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
+];
+
+const statesContainer = document.getElementById("states");
+const searchInput = document.getElementById("stateSearch");
+
+function renderStates(list){
+  statesContainer.innerHTML = list.map(state => `
+    <button class="stateBtn" data-state="${state}">
+      ${state}
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".stateBtn").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      selectState(btn.dataset.state);
+    });
+  });
+}
+
+function selectState(state){
+  document.querySelectorAll(".stateBtn").forEach(btn=>{
+    btn.classList.toggle("active", btn.dataset.state === state);
+  });
+
+  document.querySelectorAll(".pin").forEach(pin=>{
+    pin.classList.toggle("active", pin.dataset.state === state);
+  });
+}
+
+searchInput.addEventListener("input", ()=>{
+  const query = searchInput.value.toLowerCase();
+  const filtered = statesRaw.filter(state =>
+    state.toLowerCase().includes(query)
+  );
+  renderStates(filtered);
+});
+
+renderStates(statesRaw);
+
+/* =========================
+   PROMO HERO + DESCUENTO
+========================= */
+
+const promoCodeInput = document.getElementById("promoCode");
+const copyCodeBtn = document.getElementById("copyCodeBtn");
+const shopNowBtn = document.getElementById("shopNowBtn");
+const promoStatus = document.getElementById("promoStatus");
+const promoToast = document.getElementById("promoToast");
+let toastTimer = null;
+
+function showToast(){
+  if (!promoToast) return;
+  promoToast.classList.add("show");
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>promoToast.classList.remove("show"), 2000);
+}
+
+function applyPromo(){
+  document.body.classList.add("promo-active");
+  if (promoStatus) promoStatus.textContent = `Codigo ${PROMO_CODE} aplicado`;
+  showToast();
+}
+
+function scrollToPromo(){
+  const target = document.getElementById(PROMO_SECTION);
+  if (target) target.scrollIntoView({ behavior: "smooth" });
+}
+
+function copyPromoCode(){
+  const code = PROMO_CODE;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(code).catch(()=>{});
+  } else if (promoCodeInput) {
+    promoCodeInput.select();
+    document.execCommand("copy");
+  }
+  applyPromo();
+  scrollToPromo();
+}
+
+if (promoCodeInput) promoCodeInput.value = PROMO_CODE;
+if (copyCodeBtn) copyCodeBtn.addEventListener("click", copyPromoCode);
+if (shopNowBtn) shopNowBtn.addEventListener("click", scrollToPromo);
+
+
+// simple hero slider logic
+(function(){
+  const slider = document.querySelector('#hero-slider .slider');
+  const slides = document.querySelectorAll('#hero-slider .slide');
+  const total = slides.length;
+  let index = 0;
+
+  function goTo(i){
+    index = (i + total) % total;
+    slider.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  document.getElementById('next').addEventListener('click', ()=>goTo(index+1));
+  document.getElementById('prev').addEventListener('click', ()=>goTo(index-1));
+
+  setInterval(()=>goTo(index+1), 5000);
+})();
+
+</script>
+
+</body>
+</html>

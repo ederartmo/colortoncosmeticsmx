@@ -1,0 +1,17 @@
+[
+  {"name":"Matte Lipstick — Tono 27 ROSE","price":199,"desc":"Indeleble, acabado mate suave.","image":"matte mousse.jpg"},
+  {"name":"Matte Mousse","price":229,"desc":"Textura mousse, full color.","image":"p4.jpg"},
+  {"name":"Lip Gloss (Hialurónico + Vitamina E)","price":189,"desc":"Brillo cómodo, no pegajoso.","image":"p5.jpg"},
+  {"name":"MM Mineral Matte","price":269,"desc":"Matificante, acabado natural.","image":"p10.jpg"},
+  {"name":"Corrector Matte — 01 Light Beige","price":219,"desc":"Con colágeno + vitamina E."},
+  {"name":"Corrector Líquido Puff","price":239,"desc":"Aplicador puff, cobertura rápida."},
+  {"name":"Blush Stick","price":199,"desc":"Fácil de difuminar, efecto fresco."},
+  {"name":"Blush líquido — 06 MELÓN (FPS 50)","price":259,"desc":"Hialurónico + FPS 50."},
+  {"name":"Base Matte (Mineral Full Cover)","price":299,"desc":"Cobertura alta, control brillo."},
+  {"name":"BB Cream","price":249,"desc":"Ligera, unifica tono."},
+  {"name":"Gel para cejas","price":149,"desc":"Fijación y forma todo el día."},
+  {"name":"Polvo compacto","price":199,"desc":"Sellado mate, portátil."},
+  {"name":"Iluminador","price":219,"desc":"Glow fino, no glitter pesado."},
+  {"name":"Set de brochas","price":399,"desc":"Básicos para rostro y ojos."},
+  {"name":"Crema facial (Colágeno + Vitamina E)","price":249,"desc":"Hidratación diaria."}
+]
